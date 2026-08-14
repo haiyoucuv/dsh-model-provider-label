@@ -10,6 +10,8 @@
 [![GitHub release](https://img.shields.io/github/v/release/haiyoucuv/dsh-model-provider-label)](https://github.com/haiyoucuv/dsh-model-provider-label/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+**中文** | [English](README_EN.md)
+
 默认模型选择器只显示模型名（如 `DeepSeek V4 Flash`）。当你配置多个
 provider、且不同 provider 下有**同名的模型**时无法区分。本插件把 provider
 的 displayName 一并显示：**`DeepSeek · DeepSeek V4 Flash`**。
