@@ -1,0 +1,8 @@
+# dsh-model-provider-label bundle for DeepSeek Harness (dsh).
+# Inserted into the profile's composition when this bundle is installed
+# (`dsh plugin --profile web add link:<path>`). The node half is a no-op;
+# the client half shadows the composer model seat (conversation.input.model)
+# so the trigger shows provider display name + model name.
+- insert:
+    - id: dsh-model-provider-label
+      name: dsh-model-provider-label

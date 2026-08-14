@@ -1,0 +1,16 @@
+{
+  "id": "dsh-model-provider-label",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "description": "Show provider display name next to the model name in the composer model seat.",
+  "engines": {
+    "dsh": ">=0.0.1"
+  },
+  "contributes": {
+    "tools": [],
+    "skills": []
+  },
+  "client": {
+    "main": "./lib/client.js"
+  }
+}
