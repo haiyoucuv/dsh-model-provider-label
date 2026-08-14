@@ -25,6 +25,8 @@ provider's display name: **`DeepSeek · DeepSeek V4 Flash`**.
 | `GPT-5` (provider A) | `ProviderA · GPT-5` |
 | `GPT-5` (provider B) | `ProviderB · GPT-5` |
 
+![Preview](readme.png)
+
 The dropdown menu, reasoning-effort selection, model catalog loading and
 error surfaces behave exactly like the stock implementation — this plugin
 only **shadows** the `conversation.input.model` UI slot with a lower-priority

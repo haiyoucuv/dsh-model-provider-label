@@ -24,6 +24,8 @@ provider、且不同 provider 下有**同名的模型**时无法区分。本插�
 | `GPT-5` (provider A) | `ProviderA · GPT-5` |
 | `GPT-5` (provider B) | `ProviderB · GPT-5` |
 
+![效果预览](readme.png)
+
 下拉菜单、推理等级选择、模型目录加载、错误提示等行为与默认实现完全一致——
 本插件只是**遮蔽**了 `conversation.input.model` UI 槽位，用 priority 更低
 的组件替换默认渲染，其余逻辑 100% 复用宿主 `modelDirectories` 服务。
