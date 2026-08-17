@@ -1,5 +1,28 @@
 # dsh-model-provider-label
 
+> ## ⚠️ Deprecated
+>
+> **This plugin is deprecated.** The "show provider name" feature has been
+> merged into the new plugin **[dsh-chat-tweaks](https://github.com/haiyoucuv/dsh-chat-tweaks)**
+> (a DSH UI-customization collection with a dedicated Settings page, more
+> switches, and ongoing updates).
+>
+> - New plugin repository: <https://github.com/haiyoucuv/dsh-chat-tweaks>
+> - Install the new plugin:
+>
+>   ```sh
+>   dsh plugin --profile web add https://github.com/haiyoucuv/dsh-chat-tweaks/archive/refs/tags/v0.1.0.tar.gz
+>   ```
+>
+> - After installing the new plugin, remove this one (both shadow the same UI
+>   slot; coexistence throws):
+>
+>   ```sh
+>   dsh plugin --profile web remove dsh-model-provider-label
+>   ```
+>
+> The content below is kept for historical reference.
+
 > Show the **provider display name** next to the model name in the DeepSeek
 > Harness composer model seat, so identical model names from different
 > providers become distinguishable.

@@ -1,5 +1,24 @@
 # dsh-model-provider-label
 
+> ## ⚠️ 已停止维护（Deprecated）
+>
+> **本插件已停止维护**：「显示厂商名」功能已并入新插件 **[dsh-chat-tweaks](https://github.com/haiyoucuv/dsh-chat-tweaks)**（DSH 界面美化合集：独立设置页、更多开关，持续更新）。
+>
+> - 新插件仓库：<https://github.com/haiyoucuv/dsh-chat-tweaks>
+> - 安装新插件：
+>
+>   ```sh
+>   dsh plugin --profile web add https://github.com/haiyoucuv/dsh-chat-tweaks/archive/refs/tags/v0.1.0.tar.gz
+>   ```
+>
+> - 安装新插件后请卸载本插件（二者占用同一 UI 槽位，共存会报错）：
+>
+>   ```sh
+>   dsh plugin --profile web remove dsh-model-provider-label
+>   ```
+>
+> 以下内容保留作历史存档。
+
 > 在 DeepSeek Harness 对话框模型选择器同时显示 **provider 显示名** 与 **模型名**，
 > 让不同 provider 下的同名模型一眼可辨。
 >
